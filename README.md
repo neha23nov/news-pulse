@@ -194,18 +194,4 @@ The frontend application starts on `http://localhost:3000`.
 
 ---
 
-## Video Walkthrough Outline (2–3 Minutes)
 
-1. **Live Timeline Demonstration (0:00 - 0:45)**:
-   - Walk through the visual time-axis with live news clusters.
-   - Highlight time spans showing when stories began and their duration.
-   - Demonstrate visual cluster sizing and cross-source indicators.
-2. **Topic Grouping & Code Walkthrough (0:45 - 1:45)**:
-   - Explain `fetcher.py` normalization and full-text extraction.
-   - Explain `clusterer.py` TF-IDF vectorization and average-linkage cosine clustering.
-3. **Hard Problems & Solutions (1:45 - 2:30)**:
-   - Discuss handling inconsistent RSS schemas and non-standard date formats.
-   - Discuss tuning similarity thresholds to balance cross-source merging vs topic fragmentation.
-4. **Future Enhancements (2:30 - 3:00)**:
-   - Streaming incremental vector updates with sentence transformers.
-   - Semantic entity-graph extraction for cross-lingual story tracking.
